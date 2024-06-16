@@ -14,3 +14,7 @@
 #                                                                                           #
 #############################################################################################
 
+#pseudocode update
+#Read in file
+#evaluate light value in section
+#determine which symbol shall be created for that section
