@@ -12,6 +12,7 @@
 #Program main for Processing images of stars/constellations and producing a black and white #
 #print out of symbols for light spectra present within photo                                #
 #Author: IC2                                                                                #
+#Peripheral files: ImageProcessing.py                                                       #
 #File Initiation Date: 6/15/2024                                                            #
 #Last Commit: 6/16/2024                                                                     #
 #############################################################################################
@@ -22,6 +23,9 @@
 #evaluate light value in section
 #determine which symbol shall be created for that section
 
+#import ImageProcessing.py file
+import ImageProcessing
+
 #############################################################################################
 #StarTrackerMain() - Function that serves as main project call function. Computer based only#
 #at current moment                                                                          #
@@ -29,6 +33,7 @@
 #############################################################################################
 
 def StarTrackerMain():
+    ImageProcessing.ImageProcessingMain
     print("Ad Astra per Aspera")
     return
 
