@@ -13,13 +13,15 @@
 #                                                                                           #
 #Author: IC2                                                                                #
 #File Initiation Date: 6/16/2024                                                            #
-#Last Commit: 6/16/2024                                                                     #
+#Last Commit: 3/24/2025                                                                     #
 #############################################################################################
 
 #Creation of ImageProcessingMain
 def ImageProcessingMain():
     print("Slice of Time, Tis only an image, Tis only the first of many")
-    getPhoto()
+    #getPhoto()
+    #processPhoto()
+    #encodingPattern()
     return
 
 #Bring photo into program
